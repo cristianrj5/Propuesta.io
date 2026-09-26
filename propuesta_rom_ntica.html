@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tengo algo especial que decirte... ❤️</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="estilosCarta.css">
+</head>
+
+<body>
+
+    <canvas id="heartsCanvas"></canvas>
+
+    <div class="container">
+
+        <div id="envelopeScreen">
+            <div class="envelope-wrapper" id="envelopeBtn">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-flap"></div>
+                    <div class="seal">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="tap-instruction">Presiona el sello para abrir la carta ✨</p>
+        </div>
+
+        <div class="letter-card" id="letterCard">
+            <div class="letter-header">
+                <h1>Para la desmiel 🤭🤭🤭...</h1>
+            </div>
+
+            <div class="letter-body">
+                <p>No soy muy bueno expresando mis sentimientos, pero quiero comenzar diciendo que eres en este momento
+                    una persona demasiado importante para mi vida, que a pesar de llevar tan poco tiempo
+                    molestandote, diciendo que me gustas , teniendo ese delicioso cuerpecito en mis manos. en serio te
+                    convertiste en la persona con la que quiero compartir mis dias, mis risas , mis pendejadas
+                    mis torpesas y todo , quiero todo a tu lado.</p>
+
+                <div class="photo-frame">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+
+                <p>No puedo dejar de pensar en lo afortunado(a) que me siento de conocerte. Me encanta cómo eres, cómo
+                    me haces sentir y la manera tan única en la que iluminas mis días.</p>
+
+                <p>Por eso hoy, de una forma sincera y desde el fondo de mi corazón, quiero hacerte una pregunta muy
+                    importante...</p>
+            </div>
+
+            <div class="question-section">
+                <h2 class="question-title">¿Te gustaría ser mi novia? ❤️</h2>
+
+                <div class="buttons-wrapper" id="btnContainer">
+                    <button class="btn btn-yes" id="yesBtn">
+                        <i class="fa-solid fa-heart"></i> ¡Sí, acepto!
+                    </button>
+                    <button class="btn btn-no" id="noBtn">
+                        No 💔
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PANTALLA 3: CELEBRACIÓN FINAL -->
+        <div class="celebration-card" id="celebrationCard">
+            <div class="celebration-icon">
+                <i class="fa-solid fa-crown"></i>
+            </div>
+            <h1 class="celebration-title">¡Dijiste que SÍ! 🎉</h1>
+            <p class="celebration-text">
+                Me acabas de hacer el hombre más feliz del universo. Prometo cuidar tu corazón, sacarte mil sonrisas y
+                hacer de cada día una historia maravillosa juntos.
+            </p>
+            <p style="font-size: 1.5rem; color: #ff6b9d;">❤️ Te Quiero ❤️</p>
+        </div>
+
+    </div>
+    <script src="carta.js"></script>
+</body>
+
+</html>
